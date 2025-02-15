@@ -55,6 +55,17 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		animation: {
+  			'slow-spin': 'spin 25s linear infinite',
+  			'reverse-slow-spin': 'reverse-spin 30s linear infinite',
+  		},
+  		keyframes: {
+  			'reverse-spin': {
+  				from: {
+  					transform: 'rotate(360deg)'
+  				},
+  			}
   		}
   	}
   },

@@ -20,7 +20,7 @@ const stagger = {
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] overflow-hidden bg-background mt-16">
+    <section className="relative min-h-[90vh] overflow-hidden bg-background mt-12">
       {/* Decorative background elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute -left-[40%] -top-[40%] h-[80rem] w-[80rem] rounded-full bg-primary/5" />
